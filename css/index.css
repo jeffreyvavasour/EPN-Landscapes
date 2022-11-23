@@ -687,6 +687,10 @@ h6 {
     max-width: 95%;
 }
 
+.container-hero-content p {
+    width: 80%;
+}
+
 @media screen and (max-width: 991px) {
     .section-hero {
         height: auto;
@@ -715,6 +719,9 @@ h6 {
     }
     .container-hero-content {
         max-width: 100%;
+    }
+    .container-hero-content p {
+        width: 100%;
     }
 }
 
@@ -746,7 +753,11 @@ footer {
 }
 .footer-social-icons .fa {
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+.footer-social-icons .fa-brands {
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 .footer-heading {
@@ -974,6 +985,9 @@ footer {
 }
 .card-text {
     padding: 40px 40px 48px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
 }
 .card-text h3 {
     color: rgb(20, 42, 37);
@@ -983,6 +997,7 @@ footer {
     margin-bottom: 28px;
 }
 .card-text-link {
+    margin-top: auto;
     align-items: center;
     --gap: 1rem;
     color: hsl( var(--clr-primary) );
