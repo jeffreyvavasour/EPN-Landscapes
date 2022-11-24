@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPN Landscapes - Projects</title>
+    <title>EPN Landscapes - Project</title>
     <!-- css -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- font awesome -->
@@ -14,7 +15,7 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/3cfde07445.js" crossorigin="anonymous"></script>
 </head>
-<body class="projects">
+<body class="single-project">
     <!-- PRIMARY HEADER -->
     <header class="primary-header">
         <div class="container primary-header--container flex">
@@ -76,6 +77,94 @@
             </div>
         </div>
     </header>
+    <!-- HERO -->
+    <section class="section section-ss-hero">
+        <div class="container container-ss-hero">
+            <div class="ss-hero">
+                <img src="./assets/images/project-four-main.jpg" alt="garden renovation">
+                <div class="ss-hero-box">
+                    <h1>Garden Makeover</h1>
+                    <p>Carrickmines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MORE DETAILS -->
+    <section class="section section-more-details">
+        <div class="container container-more-details">
+            <div class="more-details-top flex">
+                <h2>More details about this service</h2>
+                <p>Complete garden makeover which took 7 tonnes of materials to level the garden out! We also built a new silver granite border to retain soils for the lovely mature olive trees and Portuguese laurels. And to finish it off we installed a new artificial lawn. This is the Crystal 40mm and it looks great!</p>
+            </div>
+            <div class="more-details-bottom gallery grid">
+                <a href="./assets/images/project-four-before.jpg" data-lightbox="image"><img src="./assets/images/project-four-before.jpg" alt=""></a>
+                <a href="./assets/images/project-four-main.jpg" data-lightbox="image"><img src="./assets/images/project-four-main.jpg" alt=""></a>
+                <a href="./assets/images/project-four-one.jpg" data-lightbox="image"><img src="./assets/images/project-four-one.jpg" alt=""></a>
+                <a href="./assets/images/project-four-two.jpg" data-lightbox="image"><img src="./assets/images/project-four-two.jpg" alt=""></a>
+                <a href="./assets/images/project-four-three.jpg" data-lightbox="image"><img src="./assets/images/project-four-three.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!-- OUR PROCESS -->
+    <section class="section section-process">
+        <div class="container container-process">
+            <div class="projects-top flex">
+                <div class="projects-top-left">
+                    <div class="subtitle-flex flex">
+                        <div class="subtitle-dash">
+                        </div>
+                        <div class="subtitle">our process</div>
+                    </div>
+                    <h2>How we approched this project</h2>
+                </div>
+                <div class="projects-top-right flex">
+                    <a href="./contact.html" class="button-primary">Contact us</a>
+                </div>
+            </div>
+            <div class="process-bottom flex">
+                <div class="process-card process-card-1 flex">
+                    <div class="process-card-content">
+                        <div class="process-card-number">1.</div>
+                        <h4>Step one</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur dolo adipiscing elit, sed do eiusmod tempor llom incididunt est numemloeil.</p>
+                    </div>
+                    <div class="process-card-image">
+                        <img src="./assets/images/image-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="process-card process-card-2 flex">
+                    <div class="process-card-content">
+                        <div class="process-card-number">2.</div>
+                        <h4>Step two</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur dolo adipiscing elit, sed do eiusmod tempor llom incididunt est numemloeil.</p>
+                    </div>
+                    <div class="process-card-image">
+                        <img src="./assets/images/image-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="process-card process-card-3 flex">
+                    <div class="process-card-content">
+                        <div class="process-card-number">3.</div>
+                        <h4>Step three</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur dolo adipiscing elit, sed do eiusmod tempor llom incididunt est numemloeil.</p>
+                    </div>
+                    <div class="process-card-image">
+                        <img src="./assets/images/image-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="process-card process-card-4 flex">
+                    <div class="process-card-content">
+                        <div class="process-card-number">4.</div>
+                        <h4>Step four</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur dolo adipiscing elit, sed do eiusmod tempor llom incididunt est numemloeil.</p>
+                    </div>
+                    <div class="process-card-image">
+                        <img src="./assets/images/image-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- PROJECTS -->
     <section class="section section-projects">
         <div class="container container-projects">
@@ -89,7 +178,7 @@
                     <h2>Our previous projects</h2>
                 </div>
                 <div class="projects-top-right flex">
-                    <p>Below is a history of some of our previous projects. Click on one of the images to find out more about the specific project and what it entailed. Some of the projects include: </p>
+                    <a href="./projects.html" class="button-primary">All projects</a>
                 </div>
             </div>
             <div class="projects-bottom projects grid">
@@ -180,71 +269,6 @@
             </div>
         </div>
     </section>
-    <!-- DARK BACKGROUND -->
-    <div class="dark-background">
-        <div class="container container-dark-bg grid">
-            <div class="dark-bg-content">
-                <h2>Get in touch to design a beautiful landscape today</h2>
-                <a href="./contact.html" class="button-primary">Get in touch</a>
-            </div>
-        </div>
-    </div>
-    <!-- CONTACT -->
-    <section class="section section-contact">
-        <div class="container container-contact flex">
-            <div class="contact-left">
-                <div class="flex subtitle-flex">
-                    <div class="subtitle-dash">
-                    </div>
-                    <div class="subtitle">get in touch</div>
-                </div>
-                <h2>Fill the form to get a free consultation</h2>
-                <div class="contact-links flow">
-                    <div class="contact-link">
-                        <a href="#" class="flex align-items">
-                            <i class="fa fa-map-marker"></i>
-                            <div>Dublin, Ireland</div>
-                        </a>
-                    </div>
-                    <div class="contact-link">
-                        <a href="#" class="flex align-items">
-                            <i class="fa fa-phone"></i>
-                            <div>083 373 6717</div>
-                        </a>
-                    </div>
-                    <div class="contact-link">
-                        <a href="#" class="flex align-items">
-                            <i class="fa fa-envelope"></i>
-                            <div>emmetnoone6@gmail.com</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-right">
-                <form action="https://formsubmit.co/jeffreyvavasour@gmail.com" method="POST" class="contact-form grid">
-                    <div class="name">
-                        <input class="input" type="text" id="name" name="name" placeholder="Full name">
-                    </div>
-                    <div class="email">
-                        <input class="input" type="email" id="email" name="email" placeholder="Email address">
-                    </div>
-                    <div class="phone">
-                        <input class="input" type="number" id="phone" name="number" placeholder="Phone number">
-                    </div>
-                    <div class="subject">
-                        <input class="input" type="text" id="subject" name="subject" placeholder="Subject">
-                    </div>
-                    <div class="message">
-                        <textarea class="text-area" id="message" name="message" placeholder="Write your message..."></textarea>
-                    </div>
-                    <input type="hidden" name="_next" value="http://jeffsproject.com/thank-you.html">
-                    <div class="submit">
-                        <input class="button-primary" type="submit" value="Send Message">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container container-footer flex">
@@ -326,5 +350,6 @@
         </div>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

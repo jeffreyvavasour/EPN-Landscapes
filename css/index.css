@@ -985,7 +985,6 @@ footer {
 }
 .card-text {
     padding: 40px 40px 48px;
-    height: 60vh;
     display: flex;
     flex-direction: column;
 }
@@ -997,7 +996,6 @@ footer {
     margin-bottom: 28px;
 }
 .card-text-link {
-    margin-top: auto;
     align-items: center;
     --gap: 1rem;
     color: hsl( var(--clr-primary) );
