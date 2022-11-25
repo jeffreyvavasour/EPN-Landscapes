@@ -7,6 +7,8 @@ const btnSliderLeft = document.querySelector('.btn-slider-left');
 const btnSliderRight = document.querySelector('.btn-slider-right');
 const reviewsContentSlides = document.querySelectorAll('.reviews-content-slide');
 
+const topOfPage = document.querySelector('.top-of-page');
+
 // EVENT LISTENERS
 // nav toggle
 mobileNavToggle.addEventListener('click', function(e) {
@@ -29,6 +31,17 @@ document.addEventListener('click', (e) => {
         mobileNavToggle.classList.remove('change');
         mobileNavToggle.style.position = 'absolute';
     };
+});
+
+window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY;
+
+    if (scrolled > 300) {
+        topOfPage.style.display = 'grid';
+    }
+    if (scrolled < 300) {
+        topOfPage.style.display = 'none';
+    } 
 });
 
 // review slides
